@@ -14,14 +14,43 @@ header h1 {
     
     }
     
+
+.illu {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    width: 50%;
+    }
+
 h1 {
     background-color: #B9B9B9;
     border: 2px solid #B9B9B9;
     padding: 10px;
     display: inline-block;
     }
+
+p {
+    background-color: #B9B9B9;
+    border: 2px solid #B9B9B9;
+    padding: 3px; /* Vous pouvez ajuster la taille de la boîte en modifiant la valeur de padding */
+    font-size: 20px; /* Taille de police plus grande */
+    font-family: "Georgia", serif; /* Police de caractères différente */
+    text-align: center; /* Centrer le texte dans la boîte */
+    margin-left: 50px;
+    margin-right: 50px;
+    }
     
-    
+.info {
+    background-color: #B9B9B9;
+    border: 2px solid #B9B9B9;
+    padding: 1px; /* Vous pouvez ajuster la taille de la boîte en modifiant la valeur de padding */
+    font-size: 25px; /* Taille de police plus grande */
+    font-family: "Georgia", serif; /* Police de caractères différente */
+    text-align: center; /* Centrer le texte dans la boîte */
+    margin-left: 55%;
+    margin-right: 20px;
+}
 
 nav ul {
         list-style: none;
@@ -35,7 +64,6 @@ nav ul li {
             }
 
 .footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -43,4 +71,5 @@ nav ul li {
     color: #fff;
     padding: 10px;
     text-align: center;
+    clear: both;
 }
