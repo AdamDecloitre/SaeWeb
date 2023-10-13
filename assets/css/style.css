@@ -52,6 +52,35 @@ header h1 {
     width: 50%;
     }
 
+.evenement{
+    background-color: #d9d9d9;
+    color: rgb(3, 3, 3);
+    width: fit-content; 
+    }
+    
+.block{
+    margin-bottom:20px;
+    block-size: 200px;
+    border: 1px white solid;
+    }
+    
+.description_event{
+    background-color: #d9d9d9;
+    color: rgb(3, 3, 3);
+    block-size: 50px;
+    margin-left: 370px ;
+    margin-right: 50px ;
+    padding-bottom: 100px;
+    text-align: left;
+    }
+
+.evenementimg {
+        margin-left: 50px;
+        position: absolute;
+        width: 313px;
+        height: 200px;
+}
+
 h1 {
     background-color: #B9B9B9;
     border: 2px solid #B9B9B9;
