@@ -79,6 +79,8 @@ html, body {
 .carousel-item img {
     display: block;
     height: auto;
+    margin-left: 280px;
+    margin-right: 280px ;
     max-width: 100%;
 }
 
@@ -104,10 +106,12 @@ html, body {
 
 .carousel-control.prev {
     left: 2%;
+    margin-left:150px ;
 }
 
 .carousel-control.next {
     right: 2%;
+    margin-right:150px ;
 }
 
 .carousel-control:hover {
@@ -123,7 +127,7 @@ html, body {
 
 .carousel-indicators {
     list-style: none;
-    margin: 0;
+    margin: -25px;
     padding: 0;
     position: absolute;
     bottom: 15%;
@@ -254,11 +258,30 @@ p {
     margin-right: 20px;
 }
 
+.block_coup_coeur{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 600px;
+    background-color: #D9D9D9;
+
+}
+
+.coup_coeur{
+    margin-left: 100px;
+    margin-right: 100px ;
+}
+
+.livrecoeur{
+    margin-left: 200px;
+    height: 300px;
+    width: 200px;
+    
+}
+
 .footer {
     background-color: #747474;
     color: #fff;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px;
