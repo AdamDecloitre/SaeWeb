@@ -227,6 +227,12 @@ h3 {
         width: 313px;
         height: 200px;
 }
+.img{
+    width: 7%;
+    margin-top: 15px;
+    margin-left: 5%;
+    object-fit: cover;
+}
 .nomLivre{
     background-color: #d9d9d9;
     color: rgb(3, 3, 3);
