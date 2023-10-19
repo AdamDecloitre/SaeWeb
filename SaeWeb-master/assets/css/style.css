@@ -227,33 +227,7 @@ h3 {
         width: 313px;
         height: 200px;
 }
-.img{
-    width: 7%;
-    margin-top: 15px;
-    margin-left: 5%;
-    object-fit: cover;
-}
-.nomLivre{
-    background-color: #d9d9d9;
-    color: rgb(3, 3, 3);
-    text-align: left;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 200px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-.descriptionLivre{
-    background-color: #d9d9d9;
-    color: rgb(3, 3, 3);
-    text-align: left;
-    position: absolute;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 80px;
-    margin-left: 200px;
-    margin-bottom: 5px;  
-}
+
 h1 {
     background-color: #B9B9B9;
     border: 2px solid #B9B9B9;
