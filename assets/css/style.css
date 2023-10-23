@@ -233,15 +233,16 @@ p {
 /* Styles pour le carrousel */
 .carousel {
     position: relative;
-    margin-top: 26px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+    background-color: #D9D9D9;
 }
 
 .carousel-item img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -257,7 +258,7 @@ p {
     justify-content: center; 
     align-items: center; 
     display: flex;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .carousel-control {
