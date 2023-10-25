@@ -371,33 +371,34 @@ p {
 
 /*=======================================page livre====================================*/
 
-.imgCouv{
-    width: 7%;
-    margin-top: 15px;
-    margin-left: 5%;
+.livre {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
 }
-.nomLivre{
-    background-color: #d9d9d9;
-    color: rgb(3, 3, 3);
-    text-align: left;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 16%;
-    margin-bottom: 5px;
-    font-weight: bold;
+
+.couverture {
+    height: 230px;
+    width: 175px;
+    margin-right: 10px; /* Espace entre la couverture et le texte */
+    margin-left: 80px;
+    margin-bottom: 15px;
 }
-.descriptionLivre{
-    background-color: #d9d9d9;
-    color: rgb(3, 3, 3);
-    text-align: left;
-    position: absolute;
-    font-size: 20px;
+
+.titreinfo {
+    margin-left: 15px;
+    font-size: 25px;
+    background-color: #B9B9B9;
+    text-decoration: underline;
+    margin-right: 50px;
     text-align: center;
-    margin-top: 90px;
-    margin-left: 16%;
 }
-.imgResponsive{
-    display: none;
+
+.livredesc {
+    margin-left: 15px;
+    font-size: 18px;
+    background-color: #B9B9B9;
+    text-decoration: none;
 }
 
 /*=====================================================================================*/
