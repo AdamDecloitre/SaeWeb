@@ -50,7 +50,7 @@
     border: 2px solid #747474;
     padding: 3px; 
     margin: 0px; 
-    
+
     font-size: 15px; 
     font-family: "Georgia", serif;
     text-align: center;
@@ -417,11 +417,12 @@ p {
 .description {
     background-color: #d9d9d9;
     color: rgb(3, 3, 3);
-    block-size: 50px;
-    margin-left: 370px ;
+    block-size: 80px;
+    margin-left: 390px ;
     margin-right: 50px ;
     padding-bottom: 100px;
-    text-align: left;
+    text-align: center;
+    justify-content: baseline;
 }
 
 
