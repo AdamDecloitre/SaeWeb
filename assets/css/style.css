@@ -3,14 +3,15 @@
     background-color: #747474;
     padding: 10px;
     text-align: center;
+
 }
 
-.headereng {
-    background-color: #747474;
-    padding: 10px;
-    text-align: center;
-    padding-left: 37px;
+.imgleng{
+    margin-left:40%;
 }
+
+
+
 
 .footer {
     background-color: #747474;
@@ -457,7 +458,62 @@ p {
     margin-right: 30px;
     padding-bottom: 10px;
     width: 50%;
-    }
+}
+
+.contactez-nous
+{
+    background-color: #B9B9B9;
+    border: 2px solid #B9B9B9;
+    padding: 1px; 
+    font-size: 25px; 
+    font-family: "Georgia", serif; 
+    text-align: center; 
+    margin-left: 55%;
+    margin-right: 20px;
+    text-justify: auto;
+   
+   
+   
+
+}
+
+.contactez-nous > h1
+{
+   font-weight: 500;
+}
+
+.contactez-nous > p 
+{
+   font-weight: 300;
+}
+
+form div > input, form div > select
+{
+   height: 50px;
+   width: 50%;
+   
+}
+form div > label 
+{
+   margin-bottom: 7px;
+   font-weight: 600;
+}
+
+textarea
+{
+   height: 100px;
+   width: 50%;
+}
+
+button
+{
+   width: 100%;
+   height: 50px;
+   border: 1px solid white;
+   color: white;
+   background-color: #747474;
+
+}
 
 /*=====================================================================================*/
 
@@ -512,7 +568,47 @@ and (orientation : portrait) {
 
 @media screen and (max-width: 1200px)
 {
-.block_coup_coeur
+    nav::before{
+        content: "Menu";
+        text-align: left;
+        background-color: #B9B9B9;
+        font-size:70px;
+    }
+
+    nav{
+        border-top: 1px solid #000000;
+    }
+    nav a{
+        display: none;
+    }
+    nav:hover a{
+        display: block;
+        border-top: 1px solid #000000;
+    }
+
+    .imgleng{
+        height: 70px;
+        width: 70px;
+        margin-top: 30px;
+        margin-left: 0%;
+        position: relative;
+    }
+
+    .carousel-control{
+        height: 80px;
+        width: 80px;
+        font-size: 80px;
+    }
+
+    
+
+
+
+
+
+
+
+    .block_coup_coeur
     {
         width: 100%;
         height: 600px;
@@ -572,5 +668,74 @@ and (orientation : portrait) {
     block-size: 400px;
     border: 1px white solid;
 }
+
+
+/*===============================================contact==============================*/
+.illu
+    {
+        width: 100%;
+        margin-left:0%;
+
+    }
+
+    .info
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .contactez-nous
+    {
+        background-color: #B9B9B9;
+        width: 100%;
+        font-family: "Georgia", serif; 
+        margin-left: 0px;
+        padding: 0%;
+        margin:auto;
+    }
+
+    .contactez-nous > h1
+    {
+        font-weight: 500;
+    }
+
+    .contactez-nous > p 
+    {
+        font-weight: 300;
+    }
+
+    form div > input, form div > select
+    {
+        height: 50px;
+        width: 100%;
+   
+    }
+    form div > label 
+    {
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    textarea
+    {
+        height: 100px;
+        width: 100%;
+    }
+
+    button
+    {
+        width: 100%;
+        height: 50px;
+        border: 1px solid white;
+        color: white;
+        background-color: #747474;
+
+    }
+    form
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+
 
 }

@@ -9,6 +9,7 @@
 
     <body>
         <div class="header">
+            <a href="contacteng.html" class="imgleng"><img src="assets\img\fr.png" alt="francais" ></a>
             <nav>
                 <a href="event.html">Événement</a>
                 <a href="livre.html">Livre</a>
@@ -18,8 +19,8 @@
                 </a>
                 <a href="apropos.html">À propos</a>
                 <a class="appuyer" href="contact.html">Contact</a>
-                <a href="indexeng.html" class="imgleng"><img src="assets\img\fr.png" alt="francais" ></a>
             </nav>
+            
         </div> 
 
         <div class="container">
@@ -35,6 +36,38 @@
             <br>
             Marguerite.fernandez@univ-littoral.fr</p>
             <br>
+
+            <div class="contactez-nous">
+                
+                <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                <form action="/page-traitement-donnees" method="post">
+                <div>
+                <h4>Votre nom</h4>
+                <input type="text" id="nom" name="nom" placeholder="Martin" required>
+                </div>
+                <div>
+                    <h4>Votre e-mail</h4>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div>
+                <h4>Quel est le sujet de votre message ?</h4>
+                <select name="sujet" id="sujet" required>
+                <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                <option value="probleme-compte">Problème avec mon compte</option>
+                <option value="question-produit">Question à propos d’un produit</option>
+                <option value="suivi-commande">Suivi de ma commande</option>
+                <option value="autre">Autre...</option>
+                </select>
+                </div>
+                <div>
+                <h4 for="message">Votre message</h4>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                </div>
+                <div>
+                <button type="submit">Envoyer mon message</button>
+                </div>
+                </form>
+                </div>
     </body>
 
     <footer>
