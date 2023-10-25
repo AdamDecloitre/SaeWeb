@@ -384,7 +384,7 @@ p {
 
 .livre {
     display: flex;
-    align-items: center;
+    align-items: left;
     margin: 20px 0;
 }
 
