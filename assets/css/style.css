@@ -10,6 +10,9 @@
     margin-left:40%;
 }
 
+p{
+    font-family: RogersTypewriter;
+}
 
 
 
@@ -393,11 +396,12 @@ p {
     display: flex;
     align-items: center;
     margin: 20px 0;
+    margin-left: 5%;
 }
 
 .couverture {
-    height: 230px;
-    width: 175px;
+    height: 300px;
+    width: 250px;
     margin-right: 10px; /* Espace entre la couverture et le texte */
     margin-left: 80px;
     margin-bottom: 15px;
@@ -406,18 +410,26 @@ p {
 .titreinfo {
     margin-left: 15px;
     font-size: 25px;
-    background-color: #B9B9B9;
+    
     text-decoration: underline;
     margin-right: 50px;
     text-align: center;
+    width: 60%;
 }
 
 .livredesc {
+    width: 90%;
     margin-left: 15px;
     font-size: 18px;
     background-color: #B9B9B9;
     text-decoration: none;
 }
+
+
+
+
+
+
 
 /*=====================================================================================*/
 
@@ -431,7 +443,7 @@ p {
     height: 200px;
 }
 
-.description {
+.descriptionfr, .description {
     background-color: #d9d9d9;
     color: rgb(3, 3, 3);
     block-size: 80px;
@@ -441,6 +453,10 @@ p {
     text-align: center;
     justify-content: baseline;
 }
+
+
+
+
 
 
 /*=====================================================================================*/
@@ -551,12 +567,14 @@ and (orientation : portrait) {
     /*====================================carousel=========================================*/
 
     .carousel-control.prev {
-        left: 0%;
+        left: 20%;
     }
     
     .carousel-control.next {
-        right: 0%;
+        right: 20%;
     }
+
+
 
     /*====================================A propos=========================================*/
 
@@ -568,12 +586,6 @@ and (orientation : portrait) {
 
 @media screen and (max-width: 1200px)
 {
-    nav::before{
-        content: "Menu";
-        text-align: left;
-        background-color: #B9B9B9;
-        font-size:70px;
-    }
 
     nav{
         border-top: 1px solid #000000;
@@ -582,8 +594,11 @@ and (orientation : portrait) {
         display: none;
     }
     nav:hover a{
+        margin-top: 150px;
         display: block;
         border-top: 1px solid #000000;
+        font-size: 70px;
+
     }
 
     .imgleng{
@@ -600,13 +615,16 @@ and (orientation : portrait) {
         font-size: 80px;
     }
 
+
     
 
 
 
 
 
-
+    .header{
+        width: 100%;
+    }
 
     .block_coup_coeur
     {
@@ -647,11 +665,25 @@ and (orientation : portrait) {
     margin-left: 30px;
     margin-right: 30px;
     position: relative  ;
-    width: 100%;
-    height: 150px;
+    width: 94%;
+    height: 50%;
     margin-top: 20px;
+    object-fit: cover;
     
 }
+.descriptionfr {
+    background-color: #d9d9d9;
+    color: rgb(3, 3, 3);
+    block-size: 110px;
+    margin-left: 30px ;
+    margin-right: 30px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
 .description {
     background-color: #d9d9d9;
     color: rgb(3, 3, 3);
@@ -659,13 +691,15 @@ and (orientation : portrait) {
     margin-left: 30px ;
     margin-right: 30px ;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-bottom: 100px;
     text-align: center;
-    font-size: 13px;
+    font-size: 17px;
 }
+
 .block{
-    margin-bottom:20px;
-    block-size: 400px;
+    margin-bottom:50px;
+    block-size: 450px;
     border: 1px white solid;
 }
 
@@ -680,8 +714,8 @@ and (orientation : portrait) {
 
     .info
     {
-        width: 100%;
         margin: auto;
+        padding-left: 100px;
     }
     .contactez-nous
     {
@@ -736,6 +770,51 @@ and (orientation : portrait) {
         padding: 0;
     }
 
+/*============================================Livre=========================*/
 
+    .livre {
+        width: 100%;
+        margin-left: 0px;
+        
+        padding: 0%;
+        
+
+    }
+    .livredesc
+    {
+        width: 90%;
+        
+        
+        z-index:10;
+        font-size: 18px;
+        
+    }
+  
+    .couverture {
+        height: 500px;
+        width: 75%;
+        margin-left: 0%;
+        
+        
+    }
+   
+    .titreinfo {
+      
+        
+        width: 80%;
+       
+
+    }
+/*=================================mention legal=============================================== */
+.bloc_mention_légale
+{
+    line-height: 150%;
+    background-color: #B9B9B9;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
 
 }
